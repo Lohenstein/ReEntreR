@@ -1,0 +1,34 @@
+#pragma once
+
+// STL
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <vector>
+#include <string>
+#include <cmath>
+#include <memory>
+#include <random>
+#include <ctime>
+#include <stdarg.h>
+#include <tchar.h>
+#include <Windows.h>
+#include <fstream>
+
+// ƒwƒbƒ_
+#include "Loader.h"
+#include "Easing.h"
+#include "Gui.h"
+#include "Camera.h"
+#include "Collision.h"
+#include "Input.h"
+#include "Bullet.h"
+#include "Dialog.h"
+#include "Character.h"
+#include "Entity.h"
+#include "Stage.h"
+#include "Game.h"
+#include "Scene.h"
+#include "Effect.h"
+#include "Menu.h"
+#include "Sound.h"
