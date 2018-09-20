@@ -564,6 +564,7 @@ void	cPlayer::HitAction(cObject *hit) {
 		break;
 	case Spring:
 		Collision(hit);
+		DetachAnchor();
 		// if (righthit == true || lefthit == true || bottomhit == true) IsAnchored = false;
 		// Œã‚ë‚É‚Á‚Ä‚¢‚­‚ÆÅ‰2‰ñ“Ç‚İ‚İ‚³‚ê‚é‚½‚ß‘O‚É‚¢‚Ü‚·
 		if (count != 0) {
